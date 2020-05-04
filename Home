@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+  <head>
+      
+    <meta charset="utf-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <style>
+      
+        .jumbotron {
+            
+            background-image: url(nailbar.jpg);
+            text-align: center;
+            background-position: center;
+            width: 100%;
+
+            
+        }  
+        
+        #appSummary {
+            
+            text-align: center;
+            
+        }
+        
+        .bold{
+            
+            font-weight: bold;
+            
+        }
+
+          .navbar {
+              
+            width: 100%;
+        }
+
+        .navbar a:hover {
+            
+          background: #007BFF;
+          color: #FFFFFF;
+        }
+        
+     
+        #image {
+            
+            pointer-events: none;
+        }
+    
+    </style>
+    
+ 
+
+ </head>
+ <body>
+     <nav id="navbar-example2" class="navbar navbar-light bg-light">
+         
+  <a class="navbar-brand" id="image"><img src="logo.png"></a>
+         
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="maniPedi.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="services.html">Services</a>
+    </li>
+  <li class="nav-item">
+      <a class="nav-link" href="bookNow.html">Book Now</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="contactUs.html">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+
+    <div class="jumbotron">
+      <h1 class="display-3">Welcome to Mani Pedi Salon</h1>
+      <p class="lead">We will provide you with an unforgettable pampering experience</p>
+    </div>
+     
+      <hr class="my-4">
+
+    <div class="container">
+        <h1>Location & Hours</h1>
+        <p class="bold">Greenville</p> 
+        <p>215 Pelham Rd b210, <br/>Greenville, SC 29615<br/>(864) 239-3535</p>
+        <p class="bold">Hours</p>
+        <p>Mon - Fri: 9:30AM–6:30PM<br/>Saturday: 9:30AM–6:15PM<br/>
+        Sunday: Closed</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.58096180692!2d-82.34768312974961!3d34.8667550648415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88582e6109ab3fd3%3A0x38eed839f60506c7!2sMani%20Pedi-Salon!5e0!3m2!1sen!2sus!4v1588566495412!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+     </div>
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+    
+</html>
